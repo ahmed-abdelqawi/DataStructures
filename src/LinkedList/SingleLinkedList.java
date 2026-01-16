@@ -139,6 +139,7 @@ public class SingleLinkedList {
 
         // 4. the link.
 
+        // WASTE OF MEMORY!!!!!!!
         // if (temp.next == null) { // insert @ the last index (new tail).
         // insert_at_tail(data);
         // return;
