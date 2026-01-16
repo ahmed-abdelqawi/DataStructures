@@ -58,8 +58,7 @@ public class Arr {
     Arr(int passed_size) {
 
         if (passed_size <= 0) {
-            System.out.println("ERROR: Invalid Size.");
-            return;
+            throw new IllegalArgumentException("Array size must be greater than 0");
         }
 
         array_size = passed_size;

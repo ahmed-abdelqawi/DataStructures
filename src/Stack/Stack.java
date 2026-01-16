@@ -84,8 +84,7 @@ public class Stack {
 
         // I don't trust humans, not after what happened!
         if (size <= 0) {
-            System.out.println("ERROR: Invalid Size!");
-            return;
+            throw new IllegalArgumentException("Stack size must be greater than 0");
         }
 
         capacity = size;
